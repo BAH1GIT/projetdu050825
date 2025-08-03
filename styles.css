@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #fef0d3;
+    height: 100vh;
+    padding: 0 12%;
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #81522e;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+.menu a {
+    color: #333;
+    transition: .5s;
+}
+
+.menu a:hover {
+    color: #81522e;
+   border-bottom: 4px solid #81522e;
+}
+
+.btn {
+    padding: 8px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #81522e;
+    color: #fff;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #af6d3b;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.home h4 {
+    font-family: "Monsieur La Doulaise", sans-serif;
+    font-size: 72px;
+    color: #81522e;
+}
+
+.home h1 {
+    font-size: 72px;
+    color: #81522e;
+    line-height: 72px;
+}
+.images{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.images img{
+    width: 20%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: .5s;
+}
+.images img:hover{
+    width: 30%;
+    cursor: pointer;
+    filter: contrast();
+}
