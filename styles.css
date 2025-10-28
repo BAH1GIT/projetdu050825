@@ -37,6 +37,7 @@ a {
 
 .menu a {
     color: #333;
+    font-weight: bolder;
     transition: .5s;
 }
 
@@ -55,7 +56,6 @@ a {
     color: #fff;
     transition: .5s;
 }
-
 .btn:hover {
     background-color: #af6d3b;
 }
@@ -84,7 +84,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 .images img{
     width: 20%;
